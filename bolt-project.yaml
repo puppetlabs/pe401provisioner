@@ -1,3 +1,4 @@
 ---
 name: pe401provisioner
-modules: []
+modules:
+- puppet/nginx
