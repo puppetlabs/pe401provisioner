@@ -17,4 +17,4 @@ groups:
       winrm:
         user: administrator
         password: PASTE_PASSWORD_HERE
-        port: 5986
+        port: 5985
