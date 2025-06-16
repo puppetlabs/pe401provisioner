@@ -18,4 +18,3 @@ groups:
         user: administrator
         password: PASTE_PASSWORD_HERE
         port: 5985
-        connection-timeout: 30s
