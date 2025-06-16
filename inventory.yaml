@@ -1,0 +1,21 @@
+groups:
+  - name: nixagents
+    targets:
+      - nixagent1
+      - nixagent2
+      - nixagent3
+    config:
+      transport: ssh
+      ssh:
+        user: root
+        private-key: ~/.ssh/id_ed25519
+  - name: winagents
+    targets:
+      - winagent1
+    config:
+      transport: winrm
+      winrm:
+        user: administrator
+        password: PASTE_PASSWORD_HERE
+        port: 5985
+        connection-timeout: 30s
